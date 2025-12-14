@@ -17,7 +17,7 @@ uvicorn main:app --reload
 ![img.png](imgs/start.png)
 2. **Swagger UI（/docs）**
 ![img_1.png](imgs/swagger.png)
-3. **ReDoc (/redoc) **
+3. **ReDoc (/redoc)** 
 ![img_2.png](imgs/redoc.png)
 4. **POSTMAN測試**
 * GET /books
