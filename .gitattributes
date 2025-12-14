@@ -1,0 +1,24 @@
+# 1. 自動處理換行符號 (Windows/Mac/Linux 協作時很重要)
+* text=auto
+
+# 2. Python 程式碼
+# 設定 diff=python 可以讓 git diff 顯示更清楚的函式名稱變更
+*.py text diff=python
+
+# 3. 資料庫檔案 (非常重要！)
+# 強制標記為二進位檔案，避免 Git 嘗試進行文字合併或轉換換行符號
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# 4. 圖片檔案
+# 你的作業說明有截圖，這些也應該視為二進位
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# 5. 文件檔案
+*.md text
+*.txt text
